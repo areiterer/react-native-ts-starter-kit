@@ -6,7 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
     "start:storybook": "IS_STORYBOOK=true node node_modules/react-native/local-cli/cli.js start --reset-cache",
     "test": "jest",
-    "storybook": "storybook start"
+    "storybook": "storybook start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
   },
   "dependencies": {
     "react": "16.6.1",
